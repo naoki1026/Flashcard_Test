@@ -1,0 +1,16 @@
+PODS:
+  - WDFlashCard (1.0.6)
+
+DEPENDENCIES:
+  - WDFlashCard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WDFlashCard
+
+SPEC CHECKSUMS:
+  WDFlashCard: 9ad847730f3ef177b9943df1f120b655c880941a
+
+PODFILE CHECKSUM: 15fe571c73f020ecfc136a88251188f6c00d1dee
+
+COCOAPODS: 1.5.3

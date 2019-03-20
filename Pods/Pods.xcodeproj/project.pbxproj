@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B3C1CE8BB7FC17F6D280A35597107D /* WDFlashCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57D58DFE6D6928E99CB5CBACEDBAD8 /* WDFlashCard-dummy.m */; };
+		2C0475DFA5B5AD6341DE4047B12B55EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3627382C2F2E7A5B5861FCCD35DB2A3B /* Pods-Flashcard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5219CCB28F367546297A52C8201FE95 /* Pods-Flashcard-dummy.m */; };
+		5E6F52D79FBCD402D8591B9A6E401000 /* Pods-Flashcard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 034732E1C33BEB37611C9CF29FA888BC /* Pods-Flashcard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A5B55DB7BBD19D4803D227D42ED8E15 /* WDFlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2641C735331E05827107C94C82A4B0 /* WDFlashCardView.swift */; };
+		A8CADA5895213DBA76334EC213726828 /* WDFlashCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9093F4886E868492E44BC33EEAD3D46 /* WDFlashCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B582B9FE28322B64C76642F421873072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EE05B43025A5C3CDFF5A8EFDB69113D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29A9BE9ABF429ED6C68788770A66151E;
+			remoteInfo = WDFlashCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034732E1C33BEB37611C9CF29FA888BC /* Pods-Flashcard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flashcard-umbrella.h"; sourceTree = "<group>"; };
+		05633DD2EC12D503393C3B0D5242C530 /* WDFlashCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WDFlashCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E20B0AC3B646050F8C2849CB3E4E649 /* Pods-Flashcard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Flashcard.modulemap"; sourceTree = "<group>"; };
+		1F160790509F802F3BD16D18975729A0 /* WDFlashCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDFlashCard.xcconfig; sourceTree = "<group>"; };
+		2EC9458B870FD9D0E4E6CC864474A1AE /* Pods-Flashcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flashcard.debug.xcconfig"; sourceTree = "<group>"; };
+		3C96AAD276B6B3AF5A3E9711EE1A21CC /* Pods-Flashcard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flashcard-acknowledgements.plist"; sourceTree = "<group>"; };
+		58A96E672606A200A59A8CDE0B2B44F6 /* Pods-Flashcard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flashcard-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66986606E946639309E65D3EE590E494 /* WDFlashCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDFlashCard-prefix.pch"; sourceTree = "<group>"; };
+		6887A7CBCD4B969A6310C6711F429744 /* Pods-Flashcard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flashcard-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A57D58DFE6D6928E99CB5CBACEDBAD8 /* WDFlashCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDFlashCard-dummy.m"; sourceTree = "<group>"; };
+		9D1278DB12524DC0296515EAB490A855 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4BBF2AAB9B8191C4CD9691476A168B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5219CCB28F367546297A52C8201FE95 /* Pods-Flashcard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flashcard-dummy.m"; sourceTree = "<group>"; };
+		C736B96CAB9DF2E732BD3813E0E6ABFC /* WDFlashCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WDFlashCard.modulemap; sourceTree = "<group>"; };
+		D179B7D79E9F65E6B744E00E2F7012A6 /* Pods-Flashcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flashcard.release.xcconfig"; sourceTree = "<group>"; };
+		D9093F4886E868492E44BC33EEAD3D46 /* WDFlashCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDFlashCard-umbrella.h"; sourceTree = "<group>"; };
+		E4170EF5BF220E3D4056E481B8B9A684 /* Pods_Flashcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flashcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F096AB3E833E614B01CDF0C6642C4BC0 /* Pods-Flashcard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flashcard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD2641C735331E05827107C94C82A4B0 /* WDFlashCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WDFlashCardView.swift; path = ../../Flashcard/WDFlashCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6671AA86ADBF17557E6991944300A5BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B582B9FE28322B64C76642F421873072 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EA00DC708122245E008648675DF7ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0475DFA5B5AD6341DE4047B12B55EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0108DDE589DBBD2C80BBEF9E09C6C7BA /* Pods-Flashcard */ = {
+			isa = PBXGroup;
+			children = (
+				B4BBF2AAB9B8191C4CD9691476A168B2 /* Info.plist */,
+				0E20B0AC3B646050F8C2849CB3E4E649 /* Pods-Flashcard.modulemap */,
+				F096AB3E833E614B01CDF0C6642C4BC0 /* Pods-Flashcard-acknowledgements.markdown */,
+				3C96AAD276B6B3AF5A3E9711EE1A21CC /* Pods-Flashcard-acknowledgements.plist */,
+				C5219CCB28F367546297A52C8201FE95 /* Pods-Flashcard-dummy.m */,
+				6887A7CBCD4B969A6310C6711F429744 /* Pods-Flashcard-frameworks.sh */,
+				58A96E672606A200A59A8CDE0B2B44F6 /* Pods-Flashcard-resources.sh */,
+				034732E1C33BEB37611C9CF29FA888BC /* Pods-Flashcard-umbrella.h */,
+				2EC9458B870FD9D0E4E6CC864474A1AE /* Pods-Flashcard.debug.xcconfig */,
+				D179B7D79E9F65E6B744E00E2F7012A6 /* Pods-Flashcard.release.xcconfig */,
+			);
+			name = "Pods-Flashcard";
+			path = "Target Support Files/Pods-Flashcard";
+			sourceTree = "<group>";
+		};
+		0B4631A3E0F9E789E3447AB862CC5D9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0108DDE589DBBD2C80BBEF9E09C6C7BA /* Pods-Flashcard */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		297FCFAE53E383A0A42B562DAC70B5EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4170EF5BF220E3D4056E481B8B9A684 /* Pods_Flashcard.framework */,
+				05633DD2EC12D503393C3B0D5242C530 /* WDFlashCard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A1BEB33CF952D8D8BDDD6DFF35B27592 /* Pods */,
+				297FCFAE53E383A0A42B562DAC70B5EE /* Products */,
+				0B4631A3E0F9E789E3447AB862CC5D9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82B17CA84CA1B60C5F26E20AF36A11B4 /* WDFlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				FD2641C735331E05827107C94C82A4B0 /* WDFlashCardView.swift */,
+				DDE1F53DBB0C5E00C9E4714A919EEF13 /* Support Files */,
+			);
+			path = WDFlashCard;
+			sourceTree = "<group>";
+		};
+		A1BEB33CF952D8D8BDDD6DFF35B27592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82B17CA84CA1B60C5F26E20AF36A11B4 /* WDFlashCard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE1F53DBB0C5E00C9E4714A919EEF13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1278DB12524DC0296515EAB490A855 /* Info.plist */,
+				C736B96CAB9DF2E732BD3813E0E6ABFC /* WDFlashCard.modulemap */,
+				1F160790509F802F3BD16D18975729A0 /* WDFlashCard.xcconfig */,
+				9A57D58DFE6D6928E99CB5CBACEDBAD8 /* WDFlashCard-dummy.m */,
+				66986606E946639309E65D3EE590E494 /* WDFlashCard-prefix.pch */,
+				D9093F4886E868492E44BC33EEAD3D46 /* WDFlashCard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WDFlashCard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AD70B9151010DD5D1AAAD7ADE9819C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6F52D79FBCD402D8591B9A6E401000 /* Pods-Flashcard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB33A85AC8E466B00F4B85367E3DB1C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CADA5895213DBA76334EC213726828 /* WDFlashCard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29A9BE9ABF429ED6C68788770A66151E /* WDFlashCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CAA53838EA223D727D3510949D5029 /* Build configuration list for PBXNativeTarget "WDFlashCard" */;
+			buildPhases = (
+				DB33A85AC8E466B00F4B85367E3DB1C8 /* Headers */,
+				36A883A495D813549D9959E0E0663EE2 /* Sources */,
+				6EA00DC708122245E008648675DF7ED9 /* Frameworks */,
+				389553024D0A883D12F9494B1FCC25F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDFlashCard;
+			productName = WDFlashCard;
+			productReference = 05633DD2EC12D503393C3B0D5242C530 /* WDFlashCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0014591C3C4A076CCD139FA4FAC1AD2 /* Pods-Flashcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045B75EE8696D75595FE8CFE2C0B64F6 /* Build configuration list for PBXNativeTarget "Pods-Flashcard" */;
+			buildPhases = (
+				3AD70B9151010DD5D1AAAD7ADE9819C4 /* Headers */,
+				DED8B66D6C82617817801174654A3DD7 /* Sources */,
+				6671AA86ADBF17557E6991944300A5BB /* Frameworks */,
+				C625ABCBA2CC86C3AC1E45D4EF9695B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C9F58D1A54C5F4B53995ABFB5A35E4E /* PBXTargetDependency */,
+			);
+			name = "Pods-Flashcard";
+			productName = "Pods-Flashcard";
+			productReference = E4170EF5BF220E3D4056E481B8B9A684 /* Pods_Flashcard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 297FCFAE53E383A0A42B562DAC70B5EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0014591C3C4A076CCD139FA4FAC1AD2 /* Pods-Flashcard */,
+				29A9BE9ABF429ED6C68788770A66151E /* WDFlashCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		389553024D0A883D12F9494B1FCC25F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C625ABCBA2CC86C3AC1E45D4EF9695B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36A883A495D813549D9959E0E0663EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B3C1CE8BB7FC17F6D280A35597107D /* WDFlashCard-dummy.m in Sources */,
+				7A5B55DB7BBD19D4803D227D42ED8E15 /* WDFlashCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED8B66D6C82617817801174654A3DD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3627382C2F2E7A5B5861FCCD35DB2A3B /* Pods-Flashcard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C9F58D1A54C5F4B53995ABFB5A35E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WDFlashCard;
+			target = 29A9BE9ABF429ED6C68788770A66151E /* WDFlashCard */;
+			targetProxy = 5EE05B43025A5C3CDFF5A8EFDB69113D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54F265FA720B18844D484BAAA2B94F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F160790509F802F3BD16D18975729A0 /* WDFlashCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WDFlashCard/WDFlashCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WDFlashCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WDFlashCard/WDFlashCard.modulemap";
+				PRODUCT_MODULE_NAME = WDFlashCard;
+				PRODUCT_NAME = WDFlashCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BABC63CE6CBC9A4063337F25E8C372F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D179B7D79E9F65E6B744E00E2F7012A6 /* Pods-Flashcard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flashcard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flashcard/Pods-Flashcard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B72D6BC37DE0CF5EBD60114E4A5B12F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F160790509F802F3BD16D18975729A0 /* WDFlashCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WDFlashCard/WDFlashCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WDFlashCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WDFlashCard/WDFlashCard.modulemap";
+				PRODUCT_MODULE_NAME = WDFlashCard;
+				PRODUCT_NAME = WDFlashCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7D8B1DA5FFEE2E9E0B80887B5999CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC9458B870FD9D0E4E6CC864474A1AE /* Pods-Flashcard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flashcard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flashcard/Pods-Flashcard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045B75EE8696D75595FE8CFE2C0B64F6 /* Build configuration list for PBXNativeTarget "Pods-Flashcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D8B1DA5FFEE2E9E0B80887B5999CAC /* Debug */,
+				7BABC63CE6CBC9A4063337F25E8C372F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
+				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CAA53838EA223D727D3510949D5029 /* Build configuration list for PBXNativeTarget "WDFlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72D6BC37DE0CF5EBD60114E4A5B12F4 /* Debug */,
+				54F265FA720B18844D484BAAA2B94F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

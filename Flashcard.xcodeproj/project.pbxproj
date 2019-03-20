@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765DD99B48CE2FABB51F23DF /* Pods_Flashcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3916BB4F454CDCA92ECE2640 /* Pods_Flashcard.framework */; };
 		B0A8CB192241DA75005C8958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8CB182241DA75005C8958 /* AppDelegate.swift */; };
 		B0A8CB1B2241DA75005C8958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8CB1A2241DA75005C8958 /* ViewController.swift */; };
 		B0A8CB1E2241DA75005C8958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A8CB1C2241DA75005C8958 /* Main.storyboard */; };
 		B0A8CB202241DA75005C8958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A8CB1F2241DA75005C8958 /* Assets.xcassets */; };
 		B0A8CB232241DA75005C8958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A8CB212241DA75005C8958 /* LaunchScreen.storyboard */; };
+		B0A8CB2D2241DCB1005C8958 /* WDFlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8CB2C2241DCB1005C8958 /* WDFlashCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3916BB4F454CDCA92ECE2640 /* Pods_Flashcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flashcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA101002D09ACF117F2A4AE /* Pods-Flashcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flashcard/Pods-Flashcard.release.xcconfig"; sourceTree = "<group>"; };
+		5B13441EF501EFD7B1DB91B0 /* Pods-Flashcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flashcard/Pods-Flashcard.debug.xcconfig"; sourceTree = "<group>"; };
 		B0A8CB152241DA75005C8958 /* Flashcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A8CB182241DA75005C8958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A8CB1A2241DA75005C8958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		B0A8CB1F2241DA75005C8958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A8CB222241DA75005C8958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A8CB242241DA75005C8958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A8CB2C2241DCB1005C8958 /* WDFlashCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDFlashCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765DD99B48CE2FABB51F23DF /* Pods_Flashcard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		429EAF32FB47211119DB6F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B13441EF501EFD7B1DB91B0 /* Pods-Flashcard.debug.xcconfig */,
+				3CA101002D09ACF117F2A4AE /* Pods-Flashcard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A719F2889F99BEEE292EC40D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3916BB4F454CDCA92ECE2640 /* Pods_Flashcard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0A8CB0C2241DA75005C8958 = {
 			isa = PBXGroup;
 			children = (
 				B0A8CB172241DA75005C8958 /* Flashcard */,
 				B0A8CB162241DA75005C8958 /* Products */,
+				429EAF32FB47211119DB6F2D /* Pods */,
+				A719F2889F99BEEE292EC40D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				B0A8CB1F2241DA75005C8958 /* Assets.xcassets */,
 				B0A8CB212241DA75005C8958 /* LaunchScreen.storyboard */,
 				B0A8CB242241DA75005C8958 /* Info.plist */,
+				B0A8CB2C2241DCB1005C8958 /* WDFlashCardView.swift */,
 			);
 			path = Flashcard;
 			sourceTree = "<group>";
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A8CB272241DA75005C8958 /* Build configuration list for PBXNativeTarget "Flashcard" */;
 			buildPhases = (
+				31F3CF7DCF51132368CE2767 /* [CP] Check Pods Manifest.lock */,
 				B0A8CB112241DA75005C8958 /* Sources */,
 				B0A8CB122241DA75005C8958 /* Frameworks */,
 				B0A8CB132241DA75005C8958 /* Resources */,
+				46DAD52550F64D4DE4446D8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +159,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31F3CF7DCF51132368CE2767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flashcard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46DAD52550F64D4DE4446D8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Flashcard/Pods-Flashcard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WDFlashCard/WDFlashCard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WDFlashCard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flashcard/Pods-Flashcard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0A8CB112241DA75005C8958 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +213,7 @@
 			files = (
 				B0A8CB1B2241DA75005C8958 /* ViewController.swift in Sources */,
 				B0A8CB192241DA75005C8958 /* AppDelegate.swift in Sources */,
+				B0A8CB2D2241DCB1005C8958 /* WDFlashCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +357,7 @@
 		};
 		B0A8CB282241DA75005C8958 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B13441EF501EFD7B1DB91B0 /* Pods-Flashcard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +370,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.naokiarakawa.Flashcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B0A8CB292241DA75005C8958 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA101002D09ACF117F2A4AE /* Pods-Flashcard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.naokiarakawa.Flashcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
